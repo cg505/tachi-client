@@ -46,8 +46,7 @@ export default function PrivacyPolicyPage() {
 			<p>
 				The right to rectification - You have the right to request that {TachiConfig.name}{" "}
 				correct any information you believe is inaccurate. You also have the right to
-				request
-				{TachiConfig.name} to complete the information you believe is incomplete.
+				request {TachiConfig.name} to complete the information you believe is incomplete.
 			</p>
 			<p>
 				The right to erasure - You have the right to request that {TachiConfig.name} erase
@@ -55,8 +54,8 @@ export default function PrivacyPolicyPage() {
 			</p>
 			<p>
 				The right to restrict processing - You have the right to request that{" "}
-				{TachiConfig.name}
-				restrict the processing of your personal data, under certain conditions.
+				{TachiConfig.name} restrict the processing of your personal data, under certain
+				conditions.
 			</p>
 			<p>
 				The right to object to processing - You have the right to object to{" "}
@@ -64,9 +63,8 @@ export default function PrivacyPolicyPage() {
 			</p>
 			<p>
 				The right to data portability - You have the right to request that{" "}
-				{TachiConfig.name}
-				transfer the data that we have collected to another organization, or directly to
-				you, under certain conditions.
+				{TachiConfig.name} transfer the data that we have collected to another organization,
+				or directly to you, under certain conditions.
 			</p>
 			<p>
 				If you make a request, providing I am not dead, I have one month to respond to you.

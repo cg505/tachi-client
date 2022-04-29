@@ -119,7 +119,7 @@ export default function CreditsPage() {
 						{a(
 							"Tachi Discord Bot Work",
 							"oooOoooo you want to use redux oooo",
-							"Java Skirt Whore",
+							"Java Skirt Boy",
 							"Urbit Enjoyer"
 						)}
 						: <strong>pfych</strong>
@@ -141,8 +141,12 @@ export default function CreditsPage() {
 						{a("Barbatos", "SDVX Black Magic")}: <strong>Arm1stice</strong>
 					</li>
 					<li>
-						{a("e-amusement SDVX CSV Support", "This guy put emojis in my codebase")}:{" "}
-						<strong>cg505</strong>
+						{a(
+							"Database Management, Various features, generally just a hell of a lot of work",
+							"This guy put emojis in my codebase",
+							"Emacs Evangelist"
+						)}
+						: <strong>cg505</strong>
 					</li>
 					<li>
 						{a("KsHook", "Konaste Black Magic")}: <strong>Emma</strong>

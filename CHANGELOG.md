@@ -15,6 +15,25 @@ not generally be shown to end users.
 
 # Changelog
 
+=======
+# 2.1.8
+
+- [ENH] IIDX and BMS Dan gauge now displays in gray.
+- [ENH] Showcase Stats now have the option to limit returned charts to just those you've played.
+- [ENH] internal decimal levels are now displayed on the song page.
+
+*****
+
+- [BUG] Numeric level indicators no longer appear when the numeric level is 0 (For kichiku, kiraku, etc.)
+- [BUG] 2dxtra charts now have more obvious shorthand.
+
+
+# 2.1.7
+
+I haven't been keeping this dilligently up to date.
+
+- [ENH] Sessions now display their ratings.
+- [ENH] BMS scores submitted by the LR2Hook now include graph data.
 # 2.1.2
 
 - [INTERNAL_ENH] Keys no longer *ever* use random ids. This was a fundamental misunderstanding of react on my part.

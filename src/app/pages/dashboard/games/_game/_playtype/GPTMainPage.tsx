@@ -72,7 +72,7 @@ function RecentHighlightedScoresComponent({ game, playtype }: GamePT) {
 		users: PublicUserDocument[];
 		charts: ChartDocument[];
 		songs: SongDocument[];
-	}>(`/games/${game}/${playtype}/scores/highlighted`);
+	}>(`/games/${game}/${playtype}/scores/highlighted?limit=100`);
 
 	if (error) {
 		return <ApiError error={error} />;

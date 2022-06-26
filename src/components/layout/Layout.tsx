@@ -2,7 +2,6 @@ import BackgroundImage from "components/layout/misc/BackgroundImage";
 import { BackgroundContextProvider } from "context/BackgroundContext";
 import React, { useState } from "react";
 import { JustChildren } from "types/react";
-import { LayoutInit } from "../../_metronic/layout/components/LayoutInit";
 import { Footer } from "./footer/Footer";
 import { Header } from "./header/Header";
 import { HeaderMobile } from "./header/HeaderMobile";
@@ -41,8 +40,6 @@ export function Layout({ children }: JustChildren) {
 					</div>
 				</div>
 			</div>
-
-			<LayoutInit />
 		</>
 	);
 }

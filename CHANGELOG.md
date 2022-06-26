@@ -18,6 +18,10 @@ not generally be shown to end users.
 =======
 # 2.1.8
 
+- [REWORK] Metronic CSS has been forced out of the repo, allowing us to go open source. Watch this space!
+
+*****
+
 - [ENH] IIDX and BMS Dan gauge now displays in gray.
 - [ENH] Showcase Stats now have the option to limit returned charts to just those you've played.
 - [ENH] internal decimal levels are now displayed on the song page.

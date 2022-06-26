@@ -1,20 +1,19 @@
 import BackgroundImage from "components/layout/misc/BackgroundImage";
 import { BackgroundContextProvider } from "context/BackgroundContext";
-import React from "react";
+import React, { useState } from "react";
 import { JustChildren } from "types/react";
 import { LayoutInit } from "../../_metronic/layout/components/LayoutInit";
-import { AnimateLoading } from "../../_metronic/_partials/controls";
 import { Footer } from "./footer/Footer";
 import { Header } from "./header/Header";
 import { HeaderMobile } from "./header/HeaderMobile";
 import { SubHeader } from "./subheader/SubHeader";
 
 export function Layout({ children }: JustChildren) {
+	const [mobileShow, setMobileShow] = useState(false);
+
 	return (
 		<>
-			<AnimateLoading />
-
-			<HeaderMobile />
+			<HeaderMobile setMobileShow={setMobileShow} mobileShow={mobileShow} />
 
 			<div className="d-flex flex-column flex-root">
 				<div className="d-flex flex-row flex-column-fluid page">
@@ -23,7 +22,7 @@ export function Layout({ children }: JustChildren) {
 						id="kt_wrapper"
 						style={{ overflowX: "hidden" }}
 					>
-						<Header />
+						<Header mobileShow={mobileShow} setMobileShow={setMobileShow} />
 
 						<BackgroundContextProvider>
 							<BackgroundImage />

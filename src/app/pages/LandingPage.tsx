@@ -12,8 +12,8 @@ import { ToCDNURL } from "util/api";
 export default function LandingPage() {
 	return (
 		<>
-			<HeaderMobile />
-			<Header />
+			{/* <HeaderMobile /> */}
+			{/* <Header /> */}
 			<div className="landing-page" id="kt_content">
 				<section id="hero" className="hero">
 					<div
